@@ -1,0 +1,29 @@
+{
+    "name": "fluentkit/messages",
+    "description": "Simple Laravel Messages Class to deliver messages to the view",
+    "keywords": ["laravel", "framework", "messages", "notifications"],
+    "type": "library",
+    "homepage": "https://github.com/FluentKit/Messages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lee Mason",
+            "homepage": "http://nohalfpixels.com/",
+            "email": "contact@nohalfpixels.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/FluentKit/Messages/issues"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "laravel/framework": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "FluentKit\\Messages": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
